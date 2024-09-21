@@ -1,0 +1,49 @@
+.main-content {
+  border: 1px solid var(--clr-main-content-border);
+}
+
+.pages-button {
+  position: relative;
+}
+
+.pages-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--clr-main-content-border);
+}
+
+.page-button {
+  position: relative;
+  font-size: 1.125rem;
+  letter-spacing: 0.0625rem;
+  font-family: lato-bold, serif;
+  text-transform: uppercase;
+  color: var(--clr-pages-button);
+  text-align: center;
+  cursor: pointer;
+
+  padding: 0 55px;
+  border: none;
+  background-color: white;
+}
+
+.page-button.next::after {
+  position: absolute;
+  content: "→";
+  right: 30px;
+  top: 50%;
+  transform: translateY(-55%)
+}
+
+.page-button.previous::before {
+  position: absolute;
+  content: "←";
+  left: 30px;
+  top: 50%;
+  transform: translateY(-55%)
+}

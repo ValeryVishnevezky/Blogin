@@ -2,7 +2,10 @@
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(auto, 260px) minmax(auto, 983px) minmax(auto, 260px);
+  grid-template-columns: minmax(auto, 260px) minmax(auto, 980px) minmax(
+      auto,
+      260px
+    );
   justify-content: center;
   align-items: center;
 }
@@ -15,6 +18,23 @@
   grid-column: 1 / -1;
 }
 
-.main-content{
-  height: 1321px;
+.main-content {
+  display: grid;
+  grid-template-rows: minmax(auto, 80px) repeat(3, minmax(auto, 400px)) minmax(auto, 80px);
+}
+
+.grid-row2 {
+  grid-row: 2;
+}
+
+.grid-row3 {
+  grid-row: 3;
+}
+
+.grid-row4 {
+  grid-row: 4;
+}
+
+.grid-row5 {
+  grid-row: 5;
 }

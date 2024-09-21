@@ -1,4 +1,47 @@
+.card {
+  margin-right: 25px;
+  margin-bottom: 80px;
+  gap: 40px;
+}
 
-.card-title{
-    text-transform: uppercase;
+.card-info {
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.card-button {
+  position: relative;
+  font-family: lato-bold, serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--clr-card-button-text);
+  cursor: pointer;
+
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--clr-card-button-border);
+  transition: all 0.3s ease;
+}
+
+.card-button:hover {
+  padding-left: 27px;
+  padding-right: 50px;
+  width: 213px;
+  color: var(--clr-green);
+  border: 2px solid var(--clr-green);
+}
+
+.card-button::after {
+  content: "→";
+  position: absolute;
+  opacity: 0;
+  right: 25px;
+  transition: opacity 0.2s ease;
+}
+
+.card-button:hover::after {
+  opacity: 1;
 }
