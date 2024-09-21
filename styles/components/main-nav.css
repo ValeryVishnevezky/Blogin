@@ -61,3 +61,11 @@
     background-color: var(--clr-green);
 }
 
+li.journal::after{
+    z-index: 2;
+    background-color: var(--clr-green);
+}
+
+.journal{
+color: var(--clr-green);
+}
