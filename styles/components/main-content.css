@@ -37,7 +37,7 @@
   content: "→";
   right: 30px;
   top: 50%;
-  transform: translateY(-55%)
+  transform: translateY(-55%);
 }
 
 .page-button.previous::before {
@@ -45,5 +45,5 @@
   content: "←";
   left: 30px;
   top: 50%;
-  transform: translateY(-55%)
+  transform: translateY(-55%);
 }

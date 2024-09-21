@@ -1,9 +1,9 @@
 .main-footer {
-  height: 315px;
   background-color: var(--clr-main-footer);
 }
 
 .footer-content {
+  height: 316px;
   flex-direction: column;
 }
 
@@ -12,8 +12,8 @@
 }
 
 small {
-  font-size: 0,8125rem;
-  line-height: 1,25rem;
+  font-size: 0, 8125rem;
+  line-height: 1, 25rem;
   margin-top: 32px;
   margin-bottom: 37px;
   color: var(--clr-main-footer-text);
@@ -31,11 +31,13 @@ small {
   background-color: var(--clr-main-footer-social-links);
 }
 
-.facebook,.twitter,.behance {
+.facebook,
+.twitter,
+.behance {
   margin-right: 20px;
 }
 
-.dribbble{
+.dribbble {
   margin: 0 10px;
 }
 
@@ -44,7 +46,7 @@ small {
 }
 
 .twitter:hover {
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .behance:hover {

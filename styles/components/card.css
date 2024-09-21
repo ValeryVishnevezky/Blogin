@@ -1,6 +1,6 @@
 .card {
-  margin-right: 25px;
-  margin-bottom: 80px;
+  height: 312px;
+  width: 960px;
   gap: 40px;
 }
 
@@ -8,6 +8,21 @@
   flex-direction: column;
   align-items: start;
   justify-content: start;
+}
+
+h2 {
+  letter-spacing: 0.0625rem;
+  margin: 0;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  color: var(--clr-card-title);
+}
+
+p {
+  letter-spacing: 0.03rem;
+  margin: 0;
+  margin-bottom: 40px;
+  color: var(--clr-card-text);
 }
 
 .card-button {

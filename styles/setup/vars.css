@@ -1,17 +1,16 @@
 :root {
-
-    /* Pallet */
-    --clr-main-header: #292929;
-    --clr-main-nav-before: #1d1d1d;
-    --clr-main-header-after: #1E1E1E;
-    --clr-green: #58c93a;
-    --clr-main-content-border: #e1e0e0;
-    --clr-card-text: #606060;
-    --clr-card-title: #4f4e4e;
-    --clr-card-button-text: #c2c1c1;
-    --clr-card-button-border: #c2c2c2;
-    --clr-pages-button: #818181;
-    --clr-main-footer: #F8F8F8;
-    --clr-main-footer-text: #a6a6a6;
-    --clr-main-footer-social-links: #e5e5e5;
+  /* Pallet */
+  --clr-main-header: #292929;
+  --clr-main-nav-before: #1d1d1d;
+  --clr-main-header-after: #1e1e1e;
+  --clr-green: #58c93a;
+  --clr-main-content-border: #e1e0e0;
+  --clr-card-text: #606060;
+  --clr-card-title: #4f4e4e;
+  --clr-card-button-text: #c2c1c1;
+  --clr-card-button-border: #c2c2c2;
+  --clr-pages-button: #818181;
+  --clr-main-footer: #f8f8f8;
+  --clr-main-footer-text: #a6a6a6;
+  --clr-main-footer-social-links: #e5e5e5;
 }

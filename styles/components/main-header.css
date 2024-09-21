@@ -1,16 +1,15 @@
-
-.main-header{
-    position: relative;
-    height: 130px;
-    color: white;
-    background-color: var(--clr-main-header);
+.main-header {
+  position: relative;
+  height: 130px;
+  color: white;
+  background-color: var(--clr-main-header);
 }
 
 .main-header::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    height: 6px;
-    width: 100%;
-    background-color: var(--clr-main-header-after);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  width: 100%;
+  background-color: var(--clr-main-header-after);
 }
