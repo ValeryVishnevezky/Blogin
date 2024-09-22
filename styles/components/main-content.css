@@ -4,6 +4,7 @@
 
 .pages-button {
   position: relative;
+  height: 75px;
 }
 
 .pages-button::before {
