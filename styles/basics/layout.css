@@ -2,7 +2,7 @@
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(auto, 260px) minmax(auto, 980px) minmax(auto, 260px);
+  grid-template-columns: minmax(auto, 1fr) minmax(auto, 980px) minmax(auto, 1fr);
   justify-content: center;
   align-items: center;
 }
