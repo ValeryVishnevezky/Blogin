@@ -1,7 +1,7 @@
 /* Moblie Only */
 
 @media (max-width: 740px) {
-  .card-button,
+  
   .main-header::after {
     display: none;
   }
@@ -92,11 +92,11 @@
   }
 
   h2 {
-    margin: 15px 0;
+    margin: 20px 0;
   }
 
   p {
-    margin: 0;
+    margin: 20px 0;
   }
 }
 

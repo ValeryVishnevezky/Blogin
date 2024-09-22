@@ -16,6 +16,7 @@ small {
   line-height: 1, 25rem;
   margin-top: 32px;
   margin-bottom: 37px;
+  text-align: center;
   color: var(--clr-main-footer-text);
 }
 
