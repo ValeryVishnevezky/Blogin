@@ -13,4 +13,9 @@
   --clr-main-footer: #f8f8f8;
   --clr-main-footer-text: #a6a6a6;
   --clr-main-footer-social-links: #e5e5e5;
+
+  /* mq */
+
+  --break-l: 980px;
+  --break-m: 700px;
 }

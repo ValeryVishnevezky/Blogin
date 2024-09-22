@@ -14,3 +14,7 @@
 @import url("./components/main-content.css");
 @import url("./components/card.css");
 @import url("./components/main-footer.css");
+@import url('./components/main-screen.css');
+
+/* MQ */
+@import url("./setup/mq.css");

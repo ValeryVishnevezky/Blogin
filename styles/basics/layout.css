@@ -2,7 +2,7 @@
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(20px, 1fr) minmax(780px, 980px) minmax(20px, 1fr);
+  grid-template-columns: minmax(20px, 1fr) minmax(auto, 980px) minmax(20px, 1fr);
   justify-content: center;
   align-items: center;
 }
@@ -17,7 +17,7 @@
 
 .main-content {
   display: grid;
-  grid-template-rows: minmax(auto, 1fr) repeat(3, minmax(auto-fill, 388px)) minmax(auto, 75px);
+  grid-template-rows: minmax(auto, 1fr) repeat(3, minmax(auto, 388px)) minmax(auto, 75px);
   gap: 80px;
 }
 

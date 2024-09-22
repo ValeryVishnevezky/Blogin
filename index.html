@@ -10,9 +10,9 @@
 </head>
 
 <body class="main-layout">
-
+    <div class="main-screen" onclick="toggleMenu()"></div>
     <header class="main-header main-layout full align-center">
-        <div class="flex align-center space-between">
+        <div class="header flex align-center space-between">
             <div class="logo">Blogin<span class="dot">.</span></div>
             <nav class="main-nav">
                 <ul class="main-nav-list clean-list flex">
@@ -22,6 +22,11 @@
                     <li class="contact flex align-center justify-center"><a href="#">Contact</a></li>
                 </ul>
             </nav>
+          <button onclick="toggleMenu()">
+            <li class="btn-toggle-menu flex align-center justify-center">
+                <i class="fa-solid fa-bars"></i>
+            </li>
+        </button>
         </div>
     </header>
 
@@ -76,7 +81,7 @@
             </ul>
         </section>
     </footer>
+    <script src="js/controller.js"></script>
 
 </body>
-
 </html>
